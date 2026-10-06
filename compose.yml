@@ -1,5 +1,13 @@
 services:
 
+  mandalorian:
+    build: dnsserver
+    hostname: mandalorian
+    networks:
+      rededns:
+        ipv4_address: 192.168.20.9
+    volumes:
+      - ./mandalorian/named.conf.options:/etc/bind/named.conf.options
   nsraiz:
     build: dnsserver
     hostname: raiz    
@@ -27,9 +35,8 @@ services:
     hostname: darthvader
     command: -g -4
     volumes:
-      - ./darthvader/named.conf.options:/etc/bind/named.conf.options
       - ./darthvader/named.conf.local:/etc/bind/named.conf.local
-      - ./darthvader/zonas:/var/cache/bind
+      - ./darthvader/zonas/db.starwars.lan:/etc/bind/named.conf.default-zones
       - ./dnsserver/root.hints:/usr/share/dns/root.hints
       - ./logs:/logs
     networks:
