@@ -1,5 +1,5 @@
 $TTL    86400
-@       IN      SOA     darthvader.starwars.lan. martin.starwars.lan. (
+@       IN      SOA     darthvader.starwars.lan. miguel.starwars.lan. (
                         1   ;Número de serie
                         3600    ; Actualización (Refresh)
                         1800    ; Reintento (Retry)
