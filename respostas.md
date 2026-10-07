@@ -37,7 +37,7 @@ zone "starwars.lan"{
 };
 zone "192.in-addr.arpa"{
     type primary;
-    file "/etc/bind/db.20.168.192.in-addr.arpa";
+    file "/etc/bind/db.192.in-addr.arpa";
 };
 ```
 ---
