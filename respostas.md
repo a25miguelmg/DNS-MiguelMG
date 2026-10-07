@@ -35,7 +35,7 @@ zone "starwars.lan"{
     type primary;
     file "/etc/bind/db.starwars.lan";
 };
-zone "20.168.192.in-addr.arpa"{
+zone "192.in-addr.arpa"{
     type primary;
     file "/etc/bind/db.20.168.192.in-addr.arpa";
 };
@@ -84,7 +84,7 @@ Instala unha zona de resolución inversa que teña que ver co enderezo do equipo
 
 ---
 
-**db.20.168.192**
+**db.192**
 
 ```
 $TTL    86400
