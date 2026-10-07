@@ -19,3 +19,4 @@ $TTL    86400
 26      IN      PTR     c3p0.starwars.lan.
 101     IN      PTR     skywalker.starwars.lan.
 111     IN      PTR     skywalker.starwars.lan.
+60      IN      PTR     starwars.lan.

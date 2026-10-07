@@ -113,15 +113,38 @@ $TTL    86400
 ---
 
 Comproba que podes resolver os distintos rexistros de recursos. Pega no documento de entrega a saída dos comandos:
+
 - nslookup darthvader.starwars.lan localhost
+
+![imaxe3](imaxes/imaxe3.png)
+
 - nslookup skywalker.starwars.lan localhost
+
+![imaxe4](imaxes/imaxe4.png)
+
 - nslookup starwars.lan localhost
+
+![imaxe5](imaxes/imaxe5.png)
+
 - nslookup -q=mx starwars.lan localhost
+
+![imaxe6](imaxes/imaxe6.png)
+
 - nslookup -q=ns starwars.lan localhost
+
+![imaxe7](imaxes/imaxe7.png)
+
 - nslookup -q=soa starwars.lan localhost
+
+![imaxe8](imaxes/imaxe8.png)
+
 - nslookup -q=txt lenda.starwars.lan localhost
+
+![imaxe9](imaxes/imaxe9.png)
+
 - nslookup 192.168.20.11 localhost
 
+![imaxe10](imaxes/imaxe10.png)
 
 Pega nesta tarefa o enlace ao teu repo de github
 

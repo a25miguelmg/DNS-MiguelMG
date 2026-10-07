@@ -13,6 +13,7 @@ $TTL    86400
 
 ; Rexistros A dos servidores de nomes
 
+@           IN  a   192.168.20.60
 darthvader  IN  A   192.168.20.10
 skywalker   IN  A   192.168.20.101
 skywalker   IN  A   192.168.20.111
