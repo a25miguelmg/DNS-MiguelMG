@@ -47,10 +47,9 @@ services:
     hostname: darthsidious
     depends_on:
       - darthvader
+      - mandalorian
     volumes:
-      - ./darthsidious/named.conf.options:/etc/bind/named.conf.options
       - ./darthsidious/named.conf.local:/etc/bind/named.conf.local
-      - ./dnsserver/root.hints:/usr/share/dns/root.hints      
     networks:
       rededns:
         ipv4_address: 192.168.20.11        
