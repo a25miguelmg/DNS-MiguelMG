@@ -22,6 +22,7 @@ darthsidious    IN  A   192.168.20.11
 yoda    IN  A   192.168.20.24
 yoda    IN  A   192.168.20.25
 c3p0    IN  A   192.168.20.26
+chewbacca   IN  A   192.168.20.28
 
 ; Alias (CNAME)
 
@@ -29,5 +30,5 @@ ftp     IN  CNAME   darthsidious
 
 ; Rexistro MX (servidor de correo)
 
-@       IN      MX      10  c3p0.starwars.lan.
+@       IN      MX      10  pc3p0.starwars.lan.
 lenda   IN      TXT     "Que a forza de acompanhe"

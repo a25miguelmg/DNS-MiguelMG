@@ -20,3 +20,4 @@ $TTL    86400
 101     IN      PTR     skywalker.starwars.lan.
 111     IN      PTR     skywalker.starwars.lan.
 60      IN      PTR     starwars.lan.
+28      IN      PTR     chewbacca.starwars.lan.

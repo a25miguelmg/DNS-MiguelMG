@@ -1,0 +1,14 @@
+//
+// Do any local configuration here
+//
+
+zone "starwars.lan"{
+    type primary;
+    file "/etc/bind/db.starwars.lan";
+    masters {192.168.20.10;};
+};
+zone "192.in-addr.arpa"{
+    type primary;
+    file "/etc/bind/db.192.in-addr.arpa";
+    masters {192.168.20.10;};
+};
